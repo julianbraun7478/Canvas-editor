@@ -1,0 +1,162 @@
+.upload-area {
+    margin-top: 40px;
+    border: 2px solid #9d9d9e;
+    outline: 10px solid rgba(241, 240, 240, 0.726);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.upload-area:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+#preview img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-control-file {
+    display: none;
+}
+
+.img-body {
+    margin-top: 15vh;
+    border: 2px solid #6e6f70;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#b_preview,
+#a_preview {
+    width: 90% !important;
+    height: 400px !important;
+    border: 2px dashed grey;
+    margin: auto;
+}
+
+#a_preview {
+    position: relative;
+}
+
+#downloadButton {
+    width: 90%;
+    border-radius: 10px;
+}
+
+#uploadButton {
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+
+#closeButton {
+    /* border-radius: 50%; */
+    border: 0;
+    background-color: white;
+    font-size: 30px;
+}
+
+#editButton {
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(56, 55, 55);
+    z-index: 100;
+}
+
+#edit_close {
+    font-size: 45px;
+    padding: 0;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #000000;
+    background-color: white;
+    border-bottom: 2px solid #007bff;
+}
+
+.nav-link-btn {
+    font-weight: 500;
+}
+
+.dropdown-toggle::after {
+    display: none;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+#edit_img {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    border: 2px solid rgb(51, 50, 50);
+    overflow: auto;
+}
+
+#modal-dialog {
+    max-width: 1000px !important;
+}
+
+.modal-header {
+    padding: 1px 17px;
+}
+
+.select-content {
+    height: 400px;
+    overflow: auto;
+    padding: 2px 5px;
+}
+
+.select-img {
+    border-radius: 10px;
+    width: 20%;
+    height: 60px;
+    padding: 4px;
+}
+
+.select-color {
+    border-radius: 10px;
+    width: 20%;
+    height: 60px;
+    margin: 4px;
+}
+
+.downloadbtn {
+    font-size: 25px;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 5px 60px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.copy-icon {
+    font-size: 80px;
+    padding: 30px 50px;
+}
+
+.modal-fa-icon {
+    font-size: 15px;
+    padding: 8px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+canvas {
+    position: absolute;
+    width: 536px;
+    height: 446px;
+    /* z-index: -1; */
+}
